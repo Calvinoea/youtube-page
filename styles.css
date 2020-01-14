@@ -1,40 +1,30 @@
-
-
-
-.logo {
-
-  width: 30px;
-  height:30px;
-
-
+body{
+  margin:0;
+  padding:0;
 }
 
-.searchicon {
-
-width:20px;
-height:20px;
-
+#end {
+  display: flex;
+  margin-left: 20%;
+  
 }
 
-
-.videocamera{
-
-width: 30px;
-margin-top: 30px;
+.toggle {
+  margin-left:20px;
+  margin-right:20px;
+}
+.search {
+  margin-left: 20%;
 
 }
 
 
-.bell {
-
-width:30px
-
-
-}
-
-body {
-
-background: black;
-
-
-}
+header {
+  align-items: center;
+  width:100%;
+  justify-content: flex-start;
+  display: flex;
+  height:60px;
+  box-shadow: 0 2px 2px 2px  rgb(233, 223, 223);
+  }
+  
