@@ -2,11 +2,17 @@ body{
   margin:0;
   padding:0;
 }
-
+}
+.main {
+    padding: 0 20px;
+}
 #end {
   display: flex;
   margin-left: 20%;
   
+}
+#end .fas {
+  padding:20px;
 }
 
 .toggle {
@@ -26,5 +32,21 @@ header {
   display: flex;
   height:60px;
   box-shadow: 0 2px 2px 2px  rgb(233, 223, 223);
+  }
+  .sidebar{
+    position: absolute;
+    right: 0;
+    height:auto;
+    width 24rem;
+  }
+  .sidebar ul{
+    list-style-type:none;
+    display:flex;
+  }
+  .sidebar ul li{
+    margin-left: 10px;
+  }
+  .sidebar p{
+    line-height:2px;
   }
   
