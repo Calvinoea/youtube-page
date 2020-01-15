@@ -9,7 +9,7 @@ body{
 #end {
   display: flex;
   margin-left: 20%;
-  
+
 }
 #end .fas {
   padding:20px;
@@ -49,4 +49,46 @@ header {
   .sidebar p{
     line-height:2px;
   }
-  
+
+
+  .thumbsup{
+
+margin-left: 225px;
+
+  }
+
+
+  .views{
+
+
+margin-left:330px;
+
+  }
+
+
+
+  progress {
+transform:rotate(180deg);
+margin-right:50%;
+width: 45%;
+height:10px;
+
+  }
+
+
+  .collapsepanel {
+
+
+    margin-left:15%;
+
+
+  }
+
+
+#subscribe{
+
+margin-left:38px;
+background-image: linear-gradient(right, red, gray);
+
+
+}
