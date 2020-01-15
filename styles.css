@@ -2,6 +2,20 @@
 
 
 
+#searchicon{
+
+text-align: center;
+
+}
+
+#searchbutton{
+
+text-align: center;
+line-height: 50%;
+
+}
+
+
 ul {
   padding: 0;
 }
@@ -12,8 +26,10 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: ;
-  background: lightgrey;
-
+  background: white;
+  margin-top:2px;
+  border:none;
+  viewport:100%;
 }
 
 .name {
