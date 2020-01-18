@@ -27,8 +27,49 @@ nav {
   align-items: center;
 }
 
+#nav-input {
+  width: 440px;
+  height: 27px;
+  padding-left: 10px;
+  margin-right: -55px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+
+#nav-input:focus {
+  outline: none;
+}
+
+#input-button {
+  height: 29px;
+  border: none;
+  width: 50px;
+  outline: none;
+  border-radius: 0 2px 2px 0;
+
+}
+
+
+
+#input-button:active {
+  background-color: rgb(204, 204, 204);
+}
 
 .nav-right li {
   display: inline;
   margin-left: 10px;
+}
+
+.nav-right li:last-child {
+  background-color: lightgreen;
+  border-radius: 100%;
+  padding: 9px;
+}
+
+.fa-user {
+  font-size: 22px;
+}
+
+.nav-right li:hover, .fa-bars:hover, #input-button:hover {
+  cursor: pointer;
 }
