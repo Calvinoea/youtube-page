@@ -1,32 +1,38 @@
 
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Youtube</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/dcc95333f3.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <body>
 
-      <div class="main-header">
-      <span class="name"><i class= "fas fa-bars"></i>&nbsp;&nbsp;<i style="font-color:red;"class="fas fa-angle-double-up"></i></span>
+      <header class="main-header">
+        <nav>
+          <div class="nav-left">
+            <i class= "fas fa-bars"></i>
+            <div class="logo-container">
+              <img class="youtube-logo" src="assets/youtube-logo.png" alt="youtube-logo">
+            </div>            
+          </div>
 
-      <span>
-      <input style="height:30%;margin:25px; padding-right: 600px;" id="text" name ="search" placeholder="Search"/>
-      <button id="searchbutton" style="height:37%; padding-right:50px; margin:25px; margin-left:-30px; text-algin:center;line-width:50%;"type="button"><center>&nbsp;<i id ="searchicon"class="fas fa-search"></i></center></button></span>
+          <div>
+            <input id="text" name="search" placeholder="search">
+            <button id="search-button" class="fas fa-search"></button>
+          </div>
 
-
-      <ul class="main-nav">
-        <li><i class="fas fa-video"></i></li>
-        <li><i class="fas fa-th"></i></li>
-        <li><i class="fas fa-share"></i></li>
-        <li><i class="fas fa-bell"></i></li>
-        <li><i class="far fa-user"></i></li>
-
-      </ul>
-    </div>
+          <ul class="nav-right">
+            <li><i class="fas fa-video"></i></li>
+            <li><i class="fas fa-th"></i></li>
+            <li><i class="fas fa-share"></i></li>
+            <li><i class="fas fa-bell"></i></li>
+            <li><i class="far fa-user"></i></li>
+          </ul>
+        </nav>
+        
+    </header>
 
 
 
