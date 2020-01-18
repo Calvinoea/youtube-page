@@ -1,443 +1,75 @@
-@import "compass/css3";
-
-@import 'compass';
-@import url(https://fonts.googleapis.com/css?family=Nunito);
-
-
-
-
-
-
-/* Navigation */
-
-
-body {
-  margin: 0px;
-  background-color: lightgray;
-}
 
 header {
-  background-color: white;
   width: 100%;
-  height: 60px;
+  height: 56px;
+  box-shadow: 0 2px 2px 2px  rgb(233, 223, 223);
 }
 
-ul {
+nav {
   display: flex;
-  list-style-type: none;
-  font-size: 20px;
-  justify-content: flex-end;
-  margin: 0px;
-}
-
-li {
-  margin: 11px;
-  font-family: Arial;
-
-}
-
-#menubutton {
-  /*
-  margin-right: auto;
-  */
-  order:-7;
-  margin-right: auto;
-}
-
-#logo{
-
-/*
-margin-right:80%;
-margin-top:4px;
-height:40px;
-width:80px;
-color: red;
-*/
-order:-6;
-margin-right: 18vh;
-margin-top:5px;
-}
-
-
-
-
-
-#vid{
-
-color:gray;
-
-}
-
-#grid{
-
-color:gray;
-
-}
-
-#bell{
-color:gray;
-
-}
-
-#google{
-
-color:black;
-
-
-}
-
-
-#search{
-
+  flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
-    display: flex;
-    max-width: 600px;
-    width: 1500px;
-    margin-right: 50vh;
-
+  padding: 0 10px;
 }
 
-
-#searchbar{
-
-/*
-  order:-4;
-  margin-right: 18vh;
-  padding-right: none;
-  width: 100%;
-  */
-  border: solid #ccc;
-    border-width: 1px 0 1px 1px;
-    border-radius: 2px 0 0 2px;
-    flex: 1;
-    font-size: 16px;
-    font-weight: 200;
-    height: 33px;
-    margin: 0;
-    min-width: 600px;
-    padding-right:200px;
-
-    -webkit-appearance: textfield;
-
+.logo-container {
+  padding-left: 20px;
 }
 
-
-
-
-#searchbutton {
-
-  background-color: gray;
-    border-radius: 0 2px 2px 0;
-    cursor: pointer;
-    fill: white;
-    height: 33px;
-    min-width: 27px;
-    padding: 0 7px;
-    width: 24px;
-
-
+.youtube-logo {
+  width: 90px;
 }
 
-
-
-
-
-/* End */
-
-
-
-/* Main and Side */
-
-
-
-.container1 {
-  max-width: 960px;
-  margin: auto;
-  font-family: sans-serif;
-  line-height: 1.5;
-}
-
-
-
-.flex-grid1 {
-  color: white;
+.nav-left {
   display: flex;
-  margin: auto -1rem 1rem;
+  flex-flow: row;
+  align-items: center;
 }
 
-.col1 {
-  background-color: black;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  padding: 1rem;
-}
-
-.main1 {
-  flex: 3;
-  margin-top: 30px;
-}
-
-.sidebar1 {
-  margin-bottom: auto;
-  flex: 1;
-}
-
-/* End */
-
-
-
-
-
-
-
-body{
-  margin:0;
-  padding:0;
-}
-
-.main {
-    padding: 0 20px;
-}
-#end {
-  display: flex;
-  margin-left: 20%;
-
-}
-#end .fas {
-  padding:20px;
-}
-
-.toggle {
-  margin-left:20px;
-  margin-right:20px;
-}
-
-
-
-  .container{
-
-    max-width:960px;
-    margin:auto;
-    font-family:sans-sans-serif;
-    line-height: 1.5;
-
-  }
-
-  .flex-grid{
-
-    color:white;
-    display:flex;
-    margin:auto -1rem 1rem;
-
-  }
-
-  .col {
-
-    margin-left:0.5rem;
-    margin-right:0.5rem;
-    padding:1rem;
-
-  }
-
-
-  .sidebar{
-
-    /*
-    position: absolute;
-    right: 0;
-    height:auto;
-    width 24rem;
-    list-style: none;
-    margin-left: 10px;
-    margin-right:350px;
-    font-weight:light;
-    font-size: small; */
-
-    /*
-
-    margin-left: 92vh;
-    display:inline-table; */
-
-
-  flex-direction: column;
-  flex-direction: right;
-  width:300px;
-  flex-direction: column;
-  margin-left: auto;
-  align-self: flex-start;
-  }
-  .sidebar ul{
-    list-style-type:none;
-    display:flex;
-    flex-wrap:wrap;
-    width:100px;
-    padding-left: 0;
-    align-self: flex-start;
-
-  }
-  .sidebar ul li{
-    /* margin-left: 10px; */
-    align-self: flex-start;
-
-  }
-  .sidebar p{
-    line-height:2px;
-  }
-
-#switch{
-
-color: #4F94CD;
-
-
-}
-
-#info-icon{
-
-color:gray;
-
-}
-
-.first-description{
-position:absolute;
-text-align:left;
-font-weight:lighter;
-font-size:x-small;
-font-style: italic;
-padding-left: 10px;
-
-}
-
-
-.second-description{
-
-  position:absolute;
-  text-align:right;
-  font-weight:lighter;
-  font-size:x-small;
-  font-style: italic;
+#nav-input {
+  width: 440px;
+  height: 27px;
   padding-left: 10px;
-  padding-top:37px;
-  margin-top: 8px;
-  color:gray;
-
+  margin-right: -55px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
 }
 
-.third-description{
-
-  position:absolute;
-  text-align:right;
-  font-weight:lighter;
-  font-size:x-small;
-  font-style: italic;
-  padding-left: 10px;
-  padding-top:50px;
-  color:gray;
-  margin-top:5px;
-
+#nav-input:focus {
+  outline: none;
 }
 
-
-
-  .thumbsup{
-
-margin-left: 225px;
-color:gray;
-
-  }
-
-  .thumbsdown{
-
-    color:gray;
-
-  }
-
-
-.share{
-
-color:gray;
-
-}
-
-.plus{
-
-
-color:gray;
+#input-button {
+  height: 29px;
+  border: none;
+  width: 50px;
+  outline: none;
+  border-radius: 0 2px 2px 0;
 
 }
 
 
 
-.save{
-
-color:gray;
-
+#input-button:active {
+  background-color: rgb(204, 204, 204);
 }
 
-
-  .views{
-
-color:gray;
-margin-left:330px;
-
-  }
-
-
-
-  progress {
-transform:rotate(180deg);
-margin-right:100%;
-width: 99%;
-height:10px;
-
-
-  }
-
-
-  .collapsepanel {
-
-
-    flex:7;
-    margin-bottom: 60%;
-
-
-
-  }
-
-
-#subscribe{
-
-margin-left:38px;
-background-image: linear-gradient( to right,red, white);
-
-
+.nav-right li {
+  display: inline;
+  margin-left: 10px;
 }
 
-
-#sort-icon{
-
-transform:rotate(270deg);
-color: gray;
-
+.nav-right li:last-child {
+  background-color: lightgreen;
+  border-radius: 100%;
+  padding: 9px;
 }
 
-.sortby{
-
-  color:gray;
+.fa-user {
+  font-size: 22px;
 }
 
-.comment-box{
-
-margin-top:10px;
-border-top: transparent;
-border-left: none;
-border-right:none;
-
-}
-
-.comment-box input{
-
-width: 550px;
-height: 20px;
-
-
+.nav-right li:hover, .fa-bars:hover, #input-button:hover {
+  cursor: pointer;
 }
