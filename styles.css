@@ -293,6 +293,14 @@ input:checked + .slider:before {
 }
 
 
+/* Comment */
+
+input[name="user-comment"]{
+  width: 96%;
+  display: inline-block;
+  border-top: none;
+}
+
 /*Recommended section*/
 
 .recommended-video {
