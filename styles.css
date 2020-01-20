@@ -240,6 +240,16 @@ input:checked + .slider:before {
   padding-right: 15px;
 }
 
+
+iframe{
+
+min-width: 800px;
+min-height:420px;
+frameborder:0;
+
+}
+
+
 /* Up Next Video */
 
 .video-thumbnail {
