@@ -38,24 +38,33 @@ nav {
 }
 
 #nav-input {
-  width: 440px;
-  height: 27px;
-  padding-left: 10px;
-  margin-right: -55px;
-  border: 1px solid lightgray;
-  border-radius: 2px;
+    width: 582px;
+    height: 31px;
+    padding-left: 10px;
+    margin-right: -55px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
 }
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 15px;
+  margin-top:15px;
+}
+
+
 
 #nav-input:focus {
   outline: none;
 }
 
 #input-button {
-  height: 29px;
+  height: 31px;
   border: none;
   width: 50px;
   outline: none;
   border-radius: 0 2px 2px 0;
+  background-color: lightgray;
 
 }
 
@@ -95,18 +104,25 @@ nav {
 }
 
 .container-left{
-  width: 65%;
-  margin: 40px 20px 20px 10px;
-  border-bottom: 1px solid lightgray;
+      width: 65%;
+      margin: 40px 20px 20px 10px;
+      border-bottom: 1px solid lightgray;
+      margin-left: 100px;
 }
 
 .video-discript-container{
-  width: 600px;
+  width: 800px;
 }
 
 .video-discript-container h1 {
   font-size: 24px;
   font-weight: 500px;
+
+}
+
+.user-avi {
+
+font-size:35px;
 
 }
 
@@ -291,6 +307,28 @@ input:checked + .slider:before {
 
 
 }
+
+
+.date-added button{
+float: right;
+background-color: red;
+border-radius: 3px;
+color: white;
+height: white;
+height: 30px;
+width: 70px;
+margin-right: 17px;
+font-weight: bold;
+
+}
+
+.date-added button:focus{
+
+outline:none;
+cursor:pointer;
+
+}
+
 
 
 /* Comment */
