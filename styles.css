@@ -1,1 +1,30 @@
+body{
+  margin:0;
+  padding:0;
+}
 
+#end {
+  display: flex;
+  margin-left: 20%;
+  
+}
+
+.toggle {
+  margin-left:20px;
+  margin-right:20px;
+}
+.search {
+  margin-left: 20%;
+
+}
+
+
+header {
+  align-items: center;
+  width:100%;
+  justify-content: flex-start;
+  display: flex;
+  height:60px;
+  box-shadow: 0 2px 2px 2px  rgb(233, 223, 223);
+  }
+  
