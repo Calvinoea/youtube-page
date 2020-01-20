@@ -1,116 +1,266 @@
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Youtube</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/dcc95333f3.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <body>
 
-      <div class="main-header">
-      <span class="name"><i class= "fas fa-bars"></i>&nbsp;&nbsp;<i style="font-color:red;"class="fas fa-angle-double-up"></i></span>
+      <header class="main-header">
+        <nav>
+          <div class="nav-left">
+            <i class= "fas fa-bars"></i>
+            <div class="logo-container">
+              <img class="youtube-logo" src="assets/youtube-logo.png" alt="youtube-logo">
+            </div>
+          </div>
 
-      <span>
-      <input style="height:30%;margin:25px; padding-right: 600px;" id="text" name ="search" placeholder="Search"/>
-      <button id="searchbutton" style="height:37%; padding-right:50px; margin:25px; margin-left:-30px; text-algin:center;line-width:50%;"type="button"><center>&nbsp;<i id ="searchicon"class="fas fa-search"></i></center></button></span>
+          <div class="nav-middle">
+            <input type="text" id="nav-input" name="search" placeholder="Search">
+            <button type="button" id="input-button" class="fas fa-search"></button>
+          </div>
 
+          <ul class="nav-right">
+            <li><i class="fas fa-video"></i></li>
+            <li><i class="fas fa-th"></i></li>
+            <li><i class="fas fa-share"></i></li>
+            <li><i class="fas fa-bell"></i></li>
+            <li><i class="far fa-user"></i></li>
+          </ul>
+        </nav>
 
-      <ul class="main-nav">
-        <li><i class="fas fa-video"></i></li>
-        <li><i class="fas fa-th"></i></li>
-        <li><i class="fas fa-share"></i></li>
-        <li><i class="fas fa-bell"></i></li>
-        <li><i class="far fa-user"></i></li>
-
-      </ul>
+ </header>
+<div class="main-container">
+  <div class="container-left">
+    <div class="main-video-container">
+      <iframe width="600px" height="360px" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+        <div class="video-discript-container">
+          <h1>Contributing to Open Source Part I: The Easy Way</h1>
+        <div class="social-container">
+         <div class="views-container">
+           <p class="views">899,187 views • Oct 23, 2017</p>
+
+         </div>
 
 
-
-
-
-
-
-
-    <div class="column">
-
-
-
-    <!-- Video -->
-
-    <div class="videosection">
-
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/AHBJunlsnTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-
-
-    <!-- Video Previews -->
-        <div class="sidebar">
-
-
-
-          <div class="previewtext">
-          <h3 id="upnext">Up Next</h3>
-          <h3 id="autoplay">Autoplay</h3>
-
-          <label for="" class="switch">
-            <input type="checkbox" name="" value="" checked>
-            <span class="slider round"></span>
-          </label>
+         <div class="fa-container">
+          <i class="fas fa-plus"></i>&nbsp;
+          <i class="fas fa-share"></i> &nbsp;
+          <i class="fas fa-save"></i> &nbsp;
+          <i class="fas fa-thumbs-up"></i>&nbsp;
+          <i class="fas fa-thumbs-down"></i>&nbsp;
+         </div>
         </div>
 
+        <div class="additional-descriptioin-container">
+          <hr style = "width:99%; margin-right:60%">
+          <p style="color:black;">Added on the 27 april 2014</p>
+          <p style="color:black; font-weight:lighter;">How do you contribute to open source? In this video,<br> I'll describe the easiest
+            way to make a simple contribution to an open source project<br> -- without using
+            the command line, a text editor, "forking a repo", or even touching Git outside of Github.
+          </p>
+          <hr style = "width:99%; margin-right:60%">
+
+          
 
 
+        </div>
+
+        </div>
+  </div>
 
 
+        <section class="recommended-container">
+          <div class="upnext-container">
+              <h2 class="upnext">Up next</h2>
+              <div class="autoplay">
+                  <p class="autoplay-text">AUTOPLAY</p>
+                  <label class="autoplay-toggle">
+                      <input type="checkbox" checked>
+                      <span class="slider round"></span>
+                  </label>
+              </div>
+          </div>
+          <div class="upnext-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/3Sw7RkdR0RQ/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAvzFqXPticsRxo4ojPL_rgw-iJUA" alt="upnext-video">
+                  <span class="duration">
+                      21:49
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">Tom y Jerry en Español Latino America | Le Mejor de Butch | WB Kids</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">11M views</p>
+              </div>
+          </div>
 
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/JqoEluOirws/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBJISWRSN91ekZ8uocdR6vRBmL1Zw" alt="upnext-video">
+                  <span class="duration">
+                      18:34
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">Tom et Jerry en Français | Toujours accompagnés | WB Kids</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">435K views</p>
+              </div>
+          </div>
 
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/2BWPkZJC5QY/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAdSzGIzMJMxxid_ZV7pJQOcFUvZg" alt="upnext-video">
+                  <span class="duration">
+                      23:37
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">Scooby-Doo! | Santa Saves Scoob and Shaggy | WB Kids</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">144k views</p>
+              </div>
+          </div>
 
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/7Mgb7Xt_2Qw/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLA6slf1zDobrKroa5iZ-ywCJoT20g" alt="upnext-video">
+                  <span class="duration">
+                      29:15
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">Tom & Jerry em Português | Compilação de Animações Clássicas | Tom, Jerry e Spike | WB Kids</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">47M views</p>
+              </div>
+          </div>
 
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/16T0lvYHtkE/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAyk2XZkPyB_Lq1OD0rTP95RZUTUg" alt="upnext-video">
+                  <span class="duration">
+                      27:43
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">Tom & Jerry | Cuties! | Classic Cartoon Compilation | WB Kids</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">14M views</p>
+              </div>
+          </div>
 
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/LgYlHGbhRZU/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCFy_7WIZ3MkkdIZGgzZ4u0SIcIag" alt="upnext-video">
+                  <span class="duration">
+                      18:34
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">La padroncina di Tom e Jerry potrebbe non essere sempre a casa, ma non temere, non saranno mai soli a casa perché saranno sempre insieme!</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">215k views</p>
+              </div>
+          </div>
 
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/zw_CgYQtr2U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCAoMx3ZQKV2MEp5DjGhsaMfGe9IQ" alt="upnext-video">
+                  <span class="duration">
+                      42:40
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">Home with Bean | Full Episodes | Mr Bean Official Cartoon</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">27M views</p>
+              </div>
+          </div>
 
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/QJmKw33k0mA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCUqIrt01I2EJMa90ct8RYv5j6O5Q" alt="upnext-video">
+                  <span class="duration">
+                      18:05
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">Tom & Jerry | Funniest Food Moments! 🧀| WB Kids</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">29M views</p>
+              </div>
+          </div>
 
-  <ul style="margin-top:20%; list-style:none;">
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/BjHux1gHbZ0/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAfGvOxzTm9c-uQkUCaWGjtjhmBRg" alt="upnext-video">
+                  <span class="duration">
+                      23:24
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">KING MONADA X CK - BENZ
+                  </h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">8.7M views</p>
+              </div>
+          </div>
 
-    <li><a style="text-decoration:none; all:inherit;position:relative; margin-right:50%;"href="https://archive.ph/o/Bss88/https://www.youtube.com/watch?v=mENDYhfxH-o">
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/Gx6g22faX_k/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDcDU21QeAUBk7kPXL8lP9xK6PWYA" alt="upnext-video">
+                  <span class="duration">
+                      21:49
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">
+                    Qwabe Twins - Hamba Uzongikhumbula Mp3
+                  </h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">11M views</p>
+              </div>
+          </div>
 
-      <span><img stylee="cursor:pointer;position:relative;margin-right:80%;float:right;" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt=""></span>
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/o7sPNA0lT7c/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLClj9Af9HOVkRrgRDLkMZRtMqYAVg" alt="upnext-video">
+                  <span class="duration">
+                      18:29
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">
+                    King Monada Bjala Ke Moleko [ New Hit 2018 ]
+                  </h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">19M views</p>
+              </div>
+          </div>
 
-      <h5>Contributing to Open Source: The Real Way</h5>
+          <div class="recommended-video">
+              <div class="video-container">
+                  <img class="video-thumbnail" src="https://i.ytimg.com/vi/AGBjI0x9VbM/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLA8Owp62Ay3_ZccMf8YuX9lXmMlkA" alt="upnext-video">
+                  <span class="duration">
+                      25:59
+                  </span>
+              </div>
+              <div class="video-title">
+                  <h2 class="video-description">Tom & Jerry | Best of Little Quacker | Classic Cartoon Compilation | WB Kids</h2>
+                  <p class="recommended-channel-name">WB Kids Latino</p>
+                  <p class="total-views">19M views</p>
+              </div>
+          </div>
 
-
-
-      </a>
-
-      <span style="position:aboslute; margin-left:20px; padding-left:20px; padding-bottom: 80%;">
-      <span >Contributing to Open Source: The Real Way</span>
-      <br>
-      <span style="position:aboslute; margin-left:20px; padding-left:20px; ">The Odin Projects</span>
-      <br>
-      <span style="position:aboslute; margin-left:20px; padding-left:20px">29,000 Views</span>
-      </span>
-
-
-
-
-
-    </li>
-
-
-  </ul>
-
-  <hr width="50%">
-
-
+      </section>
 </div>
 
+</body>
 
-
-  </body>
 </html>
